@@ -62,6 +62,7 @@ Válaszd ki a mese **egy** legfontosabb, érzelmileg legerősebb pillanatát (va
 - egy **angol nyelvű** képgeneráló promptot (`kep_prompt_en`), amely mindig tartalmazza: *children's coloring page, black and white line art, thick clean outlines, no shading, no gray, no color fill, no text, white background*, és a korosztálynak megfelelő részletességet (3–5 év: nagyon kevés, nagy felület; 6–8 év: közepes; 9–12 év: részletesebb).
 - A főszereplő megjelenését az űrlap `megjelenes_a_rajzon` mezője alapján írd le (pl. boy / girl / child). Ha nincs megadva, „child” legyen.
 - Egy jelenet, legfeljebb 4 szereplő, félelmetes elem nélkül.
+- A képpromptba **soha ne írd bele a szereplők nevét** vagy más személyes adatot, csak a külső leírást (pl. „a 6-year-old girl”). A kép külső szolgáltatóhoz megy.
 
 ## Kimeneti formátum
 
@@ -79,8 +80,8 @@ Kizárólag egy érvényes JSON objektumot adj vissza, minden más szöveg nélk
     "jelenet_leiras_hu": "Rövid leírás magyarul",
     "kep_prompt_en": "English image prompt for the line-art coloring page"
   },
-  "biztonsagi_megjegyzes": null
+  "biztonsagi_megjegyzes": ""
 }
 ```
 
-A `biztonsagi_megjegyzes` értéke `null`, ha nem kellett semmit cserélni, egyébként egy rövid magyar mondat arról, mit és miért cseréltél.
+A `biztonsagi_megjegyzes` értéke üres szöveg (`""`), ha nem kellett semmit cserélni, egyébként egy rövid magyar mondat arról, mit és miért cseréltél.
