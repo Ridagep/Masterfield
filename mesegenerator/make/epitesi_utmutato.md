@@ -40,9 +40,16 @@
 | 9 | Milyen érzést keltsen a gyermekben? (legfeljebb 2) | Checkboxes + „Other”, max. 2 választás | ✅ | **Biztonság és nyugalom:** biztonság · nyugalom, ellazulás (elalváshoz) · elfogadottság („szeretnek úgy, ahogy vagyok”) · otthonosság<br>**Szeretet:** melegség, szeretet · összetartozás · hála · gyengédség<br>**Belső erő:** bátorság · önbizalom („képes vagyok rá”) · büszkeség · remény<br>**Öröm:** vidámság · játékosság · csodálat, ámulat · izgalom, kalandvágy · kíváncsiság · elégedettség<br>**Másokra figyelés:** együttérzés · megkönnyebbülés (a bocsánatkérés, megbocsátás után)<br>**+ „Lepj meg!”** (a modell választ) · **+ „Más:”** max. 50 karakter |
 | 10 | Van még valami kívánságod? | Long answer | – | Max. 200 karakter. Példa: „Szerepeljen benne egy piros sárkány.” |
 | 11 | Hova küldjük a mesét? | Email | ✅ | |
-| 12 | Hozzájárulás | Checkbox | ✅ | „Elolvastam az adatkezelési tájékoztatót, és hozzájárulok, hogy a megadott adatokat a mese elkészítéséhez felhasználják.” (link a tájékoztatóra) |
+| 12 | Hozzájárulás | Checkbox | ✅ | „Elolvastam az [adatkezelési tájékoztatót](ADATKEZELESI_TAJEKOZTATO_URL), és hozzájárulok, hogy a gyermekemre és rám vonatkozó, itt megadott adatokat a mese elkészítéséhez és elküldéséhez felhasználják. A hozzájárulást bármikor visszavonhatom.” |
+| 13 | Nagykorúság | Checkbox | ✅ | „Elmúltam 18 éves, és a gyermek szülője vagy törvényes képviselője vagyok.” |
 
 ⚠️ A Tallyban a „Other” opciónál és a szöveges mezőknél be kell állítani a karakterkorlátot (Settings → Max characters). Teszteld, hogy a kötelező checkbox valóban blokkolja-e a beküldést.
+
+**Az adatkezelési tájékoztató linkje:**
+- A tájékoztató tervezete: [Adatkezelési tájékoztató – Személyre szabott tanmese](https://claude.ai/artifact/FEdAUVJrLiC7vy5dhU5XmB). Ez a szerkeszthető munkapéldány, a szülők nem látják.
+- Közzététel előtt töltsd ki a [ ] részeket, és ellenőriztesd. Utána tedd **nyilvános helyre**: a saját weboldaladra, vagy egy külön Tally oldalra (új Tally „form” csak szöveggel; minden Tally oldal nyilvános linket kap). Ezt a nyilvános linket írd az `ADATKEZELESI_TAJEKOZTATO_URL` helyére.
+- A Tallyban a linket a checkbox fölé tett szövegblokkba is érdemes betenni („Adatkezelési tájékoztató” felirattal). ⚠️ Teszteld, hogy a checkbox szövegében kattintható-e a link.
+- Az email láblécébe is kerüljön be ugyanez a link.
 
 **Az űrlap végén** egy köszönőoldal: „Köszönjük! A mese pár percen belül megérkezik az email címedre.”
 
