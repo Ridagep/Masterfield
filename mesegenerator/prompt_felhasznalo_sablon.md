@@ -39,6 +39,19 @@ Ezeket érdemes legördülő listaként felkínálni (és mellette egy „Más:�
   - **Öröm:** vidámság · játékosság · csodálat, ámulat · izgalom, kalandvágy · kíváncsiság · elégedettség
   - **Másokra figyelés:** együttérzés · megkönnyebbülés (a bocsánatkérés, megbocsátás után)
   - „Lepj meg!” (a modell választ) · „Más:” mező, max. 50 karakter
-- **Helyszín:** idegen bolygó · víz alatti világ · varázserdő · felhővár · dinoszauruszok kora · jégbirodalom · a saját kertünk, kicsiben · sivatagi oázis
-- **Képesség:** érti az állatok beszédét · repülni tud · láthatatlanná válik · nagyon kicsire zsugorodik · növényeket növeszt · víz alatt lélegzik · beszél a csillagokkal
+- **Helyszín:**
+  - **Ég és világűr:** idegen bolygó · űrállomás · a Hold · felhővár · szivárványhíd
+  - **Víz:** víz alatti világ · korallzátony · barátságos kalózhajó · világítótorony szigete · varázslatos tó
+  - **Természet:** varázserdő · tündérkert · óriásfák lombkoronája · kristálybarlang · dzsungel · szavanna · virágmező
+  - **Hideg és meleg:** jégbirodalom · az északi fény hazája · sivatagi oázis · alvó vulkán szigete
+  - **Időutazás:** dinoszauruszok kora · lovagvár · a régi idők tanyája · a jövő városa
+  - **Otthon, kicsiben:** a saját kertünk, kicsiben · a gyerekszoba éjjel, amikor a játékok életre kelnek · a padlás titkai · nagyi konyhája
+  - **Mesés helyek:** mézeskalács falu · egy könyv belseje · cirkusz · állatkert éjjel
+  - „Lepj meg!” · „Más:” mező, max. 50 karakter
+- **Képesség:**
+  - **Természet és állatok:** érti az állatok beszédét · beszél a fákkal és virágokkal · növényeket növeszt · állattá tud változni · időjárást varázsol
+  - **Mozgás:** repülni tud · víz alatt lélegzik · nagyon kicsire zsugorodik · óriásira nő · villámgyors · belép a képekbe és a könyvekbe
+  - **Varázslat:** láthatatlanná válik · a rajzai életre kelnek · egy percre megállítja az időt · fényt gyújt a tenyerében · álmokba utazik · beszél a csillagokkal
+  - **Szív és ész:** érzi mások érzéseit · gyógyító öleléssel elmulasztja a kis bánatokat · minden nyelvet megért · bármit meg tud javítani · feltaláló
+  - „Lepj meg!” · „Más:” mező, max. 50 karakter
 - **Társszereplők:** nagypapa · nagymama · anya · apa · testvér · barát · háziállat (névvel) · plüssjáték (névvel)

@@ -57,6 +57,14 @@ A mese **soha** nem tartalmazhat:
 Ha a saját tanulság ilyen, vagy nem egyértelmű, **ne kövesd**: válaszd a listáról a hozzá legközelebb álló biztonságos tanulságot (ha egyik sem illik, az empátiát), és írd le a `biztonsagi_megjegyzes` mezőbe, mit kért a szülő és mit választottál helyette.
 A védő tanulság megengedett, sőt értékes: például hogy a „rossz titkot” mindig el kell mondani egy szeretett felnőttnek, vagy hogy a testünk a miénk. Ezeket szelíden, ijesztgetés nélkül dolgozd fel.
 
+**Helyszín és képesség:**
+- A különleges képesség a mesevilághoz kötődjön (pl. egy varázstárgy, a bolygó levegője, egy tündér ajándéka). A mese végére a gyermek érezze, hogy az igazi erő benne van: a kedvességében, bátorságában, okosságában.
+- A képességet **soha ne ábrázold utánozható módon**: nincs ugrás ablakból vagy magasról, nincs hosszú levegő-visszatartás a víz alatt, nem esznek meg ismeretlen növényt vagy bogyót, nem játszanak tűzzel. Például a repülés varázsköpennyel, felhők között történjen, ne a szobaablakból.
+- A láthatatlanság, az időmegállítás és hasonló képességek **soha ne jutalmazzák** a leskelődést, a csalást vagy mások megtréfálását.
+- Saját képesség („Más” mező): nem lehet mások bántására, akaratuk irányítására vagy megtévesztésére, és nem lehet fegyver. Ha ilyen, válaszd a listáról a legközelebbi biztonságosat, és írd le a `biztonsagi_megjegyzes` mezőbe.
+- Saját helyszín („Más” mező): ijesztő helyszínt (pl. kísértetkastély) csak barátságos, vidám változatban dolgozz fel, 3–5 éveseknél pedig válassz helyette valami hasonló, de derűs helyet. Háborús, valóban veszélyes vagy felnőtteknek szóló hely nem lehet helyszín. **Pontos címet, iskolanevet vagy más azonosító adatot ne írj a mesébe**, általánosíts („a házunk”, „az óvoda”).
+- Ha a szülő a „Lepj meg!” lehetőséget választotta, válassz a korhoz és a tanulsághoz illő helyszínt vagy képességet.
+
 **A kiváltandó érzés:** a mese azt az érzést (vagy azt a két érzést) hagyja a gyermekben **a végére**, amit a szülő választott. Szabályok:
 - A cél-érzés mindig **támogató, pozitív** legyen. Félelem, szorongás, bűntudat, szégyen, kisebbrendűség, magány, irigység, harag vagy undor **soha nem lehet cél**, akkor sem, ha a szülő a „Más” mezőben ezt kéri.
 - A mese **soha nem ijesztgethet, nem fenyegethet** azért, hogy a gyermek szót fogadjon (nincs mumus, nincs „ha rossz leszel, akkor…”). Óvatosságot az okos, bátor főszereplő példája tanítson, ne a félelem.
