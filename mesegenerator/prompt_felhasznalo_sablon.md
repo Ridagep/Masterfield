@@ -17,6 +17,7 @@ Különleges képesség: {{kepesseg}}
 Tanulság / téma: {{tanulsag}}
 Saját tanulság (ha a szülő a „Más” lehetőséget választotta): {{sajat_tanulsag}}
 Milyen érzést szeretnénk kelteni: {{erzes}}
+Saját érzés (ha a szülő a „Más” lehetőséget választotta): {{sajat_erzes}}
 Egyéb kívánság (opcionális): {{egyeb}}
 </urlap>
 
@@ -31,7 +32,13 @@ Ezeket érdemes legördülő listaként felkínálni (és mellette egy „Más:�
   - **Elfogadás és világ:** a másság elfogadása · empátia, együttérzés · a természet és az állatok szeretete · vigyázunk a környezetünkre · a kíváncsiság és a tanulás öröme
   - **Élethelyzetek:** beilleszkedés az óvodába vagy iskolába · új kistestvér érkezése · költözés · félelem a sötéttől, elalvás
   - „Más:” mező: saját tanulság, max. 80 karakter
-- **Érzés:** biztonság · büszkeség · melegség, szeretet · kíváncsiság · bátorság · nyugalom (elalváshoz) · vidámság
+- **Érzés** (legfeljebb 2 választható):
+  - **Biztonság és nyugalom:** biztonság · nyugalom, ellazulás (elalváshoz) · elfogadottság („szeretnek úgy, ahogy vagyok”) · otthonosság
+  - **Szeretet:** melegség, szeretet · összetartozás · hála · gyengédség
+  - **Belső erő:** bátorság · önbizalom („képes vagyok rá”) · büszkeség · remény
+  - **Öröm:** vidámság · játékosság · csodálat, ámulat · izgalom, kalandvágy · kíváncsiság · elégedettség
+  - **Másokra figyelés:** együttérzés · megkönnyebbülés (a bocsánatkérés, megbocsátás után)
+  - „Lepj meg!” (a modell választ) · „Más:” mező, max. 50 karakter
 - **Helyszín:** idegen bolygó · víz alatti világ · varázserdő · felhővár · dinoszauruszok kora · jégbirodalom · a saját kertünk, kicsiben · sivatagi oázis
 - **Képesség:** érti az állatok beszédét · repülni tud · láthatatlanná válik · nagyon kicsire zsugorodik · növényeket növeszt · víz alatt lélegzik · beszél a csillagokkal
 - **Társszereplők:** nagypapa · nagymama · anya · apa · testvér · barát · háziállat (névvel) · plüssjáték (névvel)
