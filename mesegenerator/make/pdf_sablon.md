@@ -145,3 +145,23 @@ tölti ki.
 - [ ] A színezőkép kitölti az oldalt, nem torzul
 - [ ] A két AI-felirat (kép alatt + lábléc) látszik
 - [ ] Kinyomtatva is jól olvasható és kiszínezhető
+
+---
+
+## 6. Háttéroldalak (Varázskönyv-díszítés)
+
+A `brand/` mappában három kész A4-es háttérkép van (300 dpi, 2480×3508 px). A díszítés csak a szegélyen van,
+a szöveg és a kép a CraftMyPDF-ben kerül rá.
+
+| Fájl | Melyik oldal | Hova kerüljön a tartalom (mm-ben, a lap bal felső sarkától) |
+|---|---|---|
+| `hatter_1_mese.png` | a mese oldalai | logó a háttérben már benne van; **szövegterület:** x 22–188, y 50–270 (a további oldalakon y 25–270) |
+| `hatter_2_szulonek.png` | a szülői oldal | a halványkék doboz: x 22–188, y 38–269 → a szöveg belül, 8 mm belső margóval |
+| `hatter_3_szinezo.png` | a színezőlap | cím: y 16–30 között, középen · **kép a bézs keretben:** x 20–190, y 34–267 (arányosan, középre) · AI-felirat: y 270 körül |
+
+**Beállítás a CraftMyPDF-ben:** az oldal háttereként (*Page background / Background image*), vagy egy **Image** elemként
+a teljes lapon (0,0 – 210×297 mm), a legalsó rétegen, zárolva (*Lock*). ⚠️ A pontos menüpontot a szerkesztőben kell
+megkeresni. Ha a mese hosszabb egy oldalnál, a következő oldalakon is a `hatter_1_mese.png` legyen (ha a szerkesztő
+engedi a háttér ismétlését).
+
+**Lábléc szövege** (a CraftMyPDF-ben, 8 pt, szürke, y ≈ 280 mm, középen): `Varázskönyv · Ez a mese mesterséges intelligencia segítségével készült.`
