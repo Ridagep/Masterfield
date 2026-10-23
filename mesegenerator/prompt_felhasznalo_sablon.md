@@ -13,7 +13,9 @@ Főszereplő kora (év): {{kor}}
 Megjelenés a rajzon (fiú / lány / nem adom meg): {{megjelenes_a_rajzon}}
 Társszereplő(k): {{tarsszereplok}}
 Helyszín: {{helyszin}}
+Saját helyszín (ha a szülő a „Más” lehetőséget választotta): {{sajat_helyszin}}
 Különleges képesség: {{kepesseg}}
+Saját képesség (ha a szülő a „Más” lehetőséget választotta): {{sajat_kepesseg}}
 Tanulság / téma: {{tanulsag}}
 Saját tanulság (ha a szülő a „Más” lehetőséget választotta): {{sajat_tanulsag}}
 Milyen érzést szeretnénk kelteni: {{erzes}}
