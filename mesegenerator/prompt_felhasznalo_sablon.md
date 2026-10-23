@@ -23,6 +23,8 @@ Saját érzés (ha a szülő a „Más” lehetőséget választotta): {{sajat_e
 Egyéb kívánság (opcionális): {{egyeb}}
 </urlap>
 
+Meglepetés iránya: {{meglepetes_iranya}}
+
 ## Az űrlap javasolt választási lehetőségei
 
 Ezeket érdemes legördülő listaként felkínálni (és mellette egy „Más:” szabad mezőt):
