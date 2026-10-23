@@ -1,7 +1,10 @@
 # PDF sablon – CraftMyPDF
 
 > Cél: egy 3 részes, nyomtatható A4-es PDF. **(1) A mese** · **(2) A szülőnek: tanulság és kérdések** · **(3) Színezőlap**.
-> A logó és a márkanév egyelőre helyőrző (`Személyre szabott tanmese`), később cserélhető.
+> Márka: **Varázs könyv** (logó: nyitott könyv tollal, világoskék körben).
+>
+> **Színek a logóból:** égkék `#3BB6FF` (fő szín: címek, díszvonal) · halvány égkék `#E6F6FD` (háttérdobozok) ·
+> homok/bézs `#E8D5A8` (díszítő vonalak) · sötét szövegszín `#2B3A4A` (a fekete helyett, lágyabb).
 > ⚠️ A CraftMyPDF szerkesztőjének pontos menüneveit a dokumentációból nem tudtam ellenőrizni. Ha valami máshogy
 > hívják, küldj képernyőképet.
 
@@ -56,10 +59,10 @@ tölti ki.
 
 | Elem | Tartalom | Beállítás |
 |---|---|---|
-| Text – fejléc | `Személyre szabott tanmese` | 10 pt, szürke (#888), középre, felül |
-| Text – cím | `{{cim}}` | 24–26 pt, félkövér, középre, sötétkék vagy mélylila (#3B2A6B) |
-| Line | – | vékony, halvány vonal a cím alatt, kb. 40% szélesség, középen |
-| Text – mese | `{{mese}}` | 13–14 pt, sorköz 1,5, sorkizárt vagy balra zárt; **Auto height / Overflow: be** (hogy hosszú mesénél átfolyjon a következő oldalra); a sortörések megtartása (*Preserve line breaks* / *white-space: pre-wrap*) |
+| Image – logó | a Varázs könyv logó (feltöltött kép) | kb. 28–32 mm széles, középre, felül. **Előtte vágd körbe** a logót, hogy a nagy fehér szegély ne foglaljon helyet (pl. Canva → *Crop*), és PNG-ként töltsd fel a CraftMyPDF-be (*Upload image* / *Assets*) |
+| Text – cím | `{{cim}}` | 24–26 pt, félkövér, középre, égkék `#3BB6FF` vagy a sötét szövegszín. Ha van a logóhoz hasonló kézírásos betű (pl. *Patrick Hand*, *Mali*, *Gochi Hand*), a címhez azt használd – de előbb teszteld az ő/ű-vel! |
+| Line | – | vékony, bézs `#E8D5A8` vonal a cím alatt, kb. 40% szélesség, középen |
+| Text – mese | `{{mese}}` | 13–14 pt, szín `#2B3A4A`, sorköz 1,5, sorkizárt vagy balra zárt; **Auto height / Overflow: be** (hogy hosszú mesénél átfolyjon a következő oldalra); a sortörések megtartása (*Preserve line breaks* / *white-space: pre-wrap*) |
 | Text – zárás | `Itt a vége, fuss el véle!` | 12 pt, dőlt, középre |
 | **Page break** | | |
 
@@ -67,7 +70,7 @@ tölti ki.
 
 | Elem | Tartalom | Beállítás |
 |---|---|---|
-| Text – cím | `A szülőnek` | 18 pt, félkövér |
+| Text – cím | `A szülőnek` | 18 pt, félkövér, égkék `#3BB6FF` · (opcionális: az egész rész halvány égkék `#E6F6FD` hátterű dobozban) |
 | Text – alcím | `Mit erősít ez a mese?` | 13 pt, félkövér |
 | Text | `{{tanulsag_szuloknek}}` | 12 pt, sorköz 1,4 |
 | Text – alcím | `Kérdések a gyermeknek – beszélgessetek a mese után` | 13 pt, félkövér, felette kis térköz |
@@ -78,7 +81,7 @@ tölti ki.
 
 | Elem | Tartalom | Beállítás |
 |---|---|---|
-| Text – cím | `Színezd ki a mesét!` | 18 pt, félkövér, középre |
+| Text – cím | `Színezd ki a mesét!` | 18 pt, félkövér, középre, égkék `#3BB6FF` |
 | Image | `{{kep_url}}` | teljes szélesség, arányos méretezés (*Keep aspect ratio / Fit*), kb. 160–170 mm magas |
 | Text – felirat | `Az illusztráció mesterséges intelligencia segítségével készült.` | 8 pt, szürke, középre, a kép alatt |
 
@@ -86,7 +89,7 @@ tölti ki.
 
 | Elem | Tartalom | Beállítás |
 |---|---|---|
-| Text | `Ez a mese mesterséges intelligencia segítségével készült. · Személyre szabott tanmese` | 8 pt, szürke, középre |
+| Text | `Varázs könyv · Ez a mese mesterséges intelligencia segítségével készült.` | 8 pt, szürke, középre |
 | Text (opcionális) | oldalszám, pl. `{{page}} / {{total_pages}}` | 8 pt, jobbra – ⚠️ a pontos kifejezést a CraftMyPDF súgójában kell megnézni |
 
 ---

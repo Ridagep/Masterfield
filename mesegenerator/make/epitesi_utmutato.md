@@ -203,7 +203,7 @@ A mellékelt PDF-ben megtalálod:
 
 Jó mesélést kívánunk!
 
-[Márkanév]
+Varázs könyv
 
 A mese és az illusztráció mesterséges intelligencia segítségével készült.
 ```
