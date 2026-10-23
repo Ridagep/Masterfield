@@ -1,7 +1,7 @@
 # PDF sablon – CraftMyPDF
 
 > Cél: egy 3 részes, nyomtatható A4-es PDF. **(1) A mese** · **(2) A szülőnek: tanulság és kérdések** · **(3) Színezőlap**.
-> Márka: **Varázs könyv** (logó: nyitott könyv tollal, világoskék körben).
+> Márka: **Varázskönyv** (logó: nyitott könyv tollal, világoskék körben).
 >
 > **Színek a logóból:** égkék `#3BB6FF` (fő szín: címek, díszvonal) · halvány égkék `#E6F6FD` (háttérdobozok) ·
 > homok/bézs `#E8D5A8` (díszítő vonalak) · sötét szövegszín `#2B3A4A` (a fekete helyett, lágyabb).
@@ -59,7 +59,7 @@ tölti ki.
 
 | Elem | Tartalom | Beállítás |
 |---|---|---|
-| Image – logó | a Varázs könyv logó (feltöltött kép) | kb. 28–32 mm széles, középre, felül. **Előtte vágd körbe** a logót, hogy a nagy fehér szegély ne foglaljon helyet (pl. Canva → *Crop*), és PNG-ként töltsd fel a CraftMyPDF-be (*Upload image* / *Assets*) |
+| Image – logó | a Varázskönyv logó (feltöltött kép) | kb. 28–32 mm széles, középre, felül. **Előtte vágd körbe** a logót, hogy a nagy fehér szegély ne foglaljon helyet (pl. Canva → *Crop*), és PNG-ként töltsd fel a CraftMyPDF-be (*Upload image* / *Assets*) |
 | Text – cím | `{{cim}}` | 24–26 pt, félkövér, középre, égkék `#3BB6FF` vagy a sötét szövegszín. Ha van a logóhoz hasonló kézírásos betű (pl. *Patrick Hand*, *Mali*, *Gochi Hand*), a címhez azt használd – de előbb teszteld az ő/ű-vel! |
 | Line | – | vékony, bézs `#E8D5A8` vonal a cím alatt, kb. 40% szélesség, középen |
 | Text – mese | `{{mese}}` | 13–14 pt, szín `#2B3A4A`, sorköz 1,5, sorkizárt vagy balra zárt; **Auto height / Overflow: be** (hogy hosszú mesénél átfolyjon a következő oldalra); a sortörések megtartása (*Preserve line breaks* / *white-space: pre-wrap*) |
@@ -89,7 +89,7 @@ tölti ki.
 
 | Elem | Tartalom | Beállítás |
 |---|---|---|
-| Text | `Varázs könyv · Ez a mese mesterséges intelligencia segítségével készült.` | 8 pt, szürke, középre |
+| Text | `Varázskönyv · Ez a mese mesterséges intelligencia segítségével készült.` | 8 pt, szürke, középre |
 | Text (opcionális) | oldalszám, pl. `{{page}} / {{total_pages}}` | 8 pt, jobbra – ⚠️ a pontos kifejezést a CraftMyPDF súgójában kell megnézni |
 
 ---
