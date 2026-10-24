@@ -1,6 +1,6 @@
 # Varázskönyv – hol tartunk
 
-_Utolsó frissítés: 2026-10-24_
+_Utolsó frissítés: 2026-10-24 (este)_
 
 ## Kész ✅
 
@@ -12,13 +12,11 @@ _Utolsó frissítés: 2026-10-24_
 | Mesegenerálás (Claude) | sémás JSON válasz, sorsolt meglepetés-irány, bekezdések egy sortöréssel |
 | Színezőkép (OpenAI) | 1024×1536, fix vonalas stílus-utótag, C2PA-jelölés igazolva |
 | Google Drive feltöltés + megosztás | `mesegenerator_tmp` mappa |
-| PDF Google Docs sablonból | A4, Varázskönyv vízjel-keret, logó csak az 1. oldal fejlécében, 2:3-as színezőkép |
+| PDF Google Docs sablonból | A4, Varázskönyv vízjel-keret, logó csak az 1. oldal fejlécében, 2:3-as színezőkép, „Oldaltörés előtte” a címeknél |
+| Email a szülőnek | Gmail modul a meglévő Google Restricted kapcsolattal; csatolmány: PDF + szinezo.png |
 
 ## Hátravan ⬜
 
-1. **Email a szülőnek** (Make → Email → Send an Email, Gmail SMTP + alkalmazásjelszó)
-   - Csatolmányok: a PDF és az eredeti `szinezo.png`
-   - Szöveg: `make/email_szoveg.html`
 2. **Takarítás:** Google Drive → Delete a File/Folder × 2 (a kitöltött Doc és a kép), az email UTÁN
 3. **Bemenet moderálása:** OpenAI → Create a Moderation + Router (a Tally után)
 4. **Hibakezelés:** Break hibakezelő + értesítő email Ritának; a `biztonsagi_megjegyzes` nem üres → értesítés
