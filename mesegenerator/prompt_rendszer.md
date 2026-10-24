@@ -98,7 +98,7 @@ Kizárólag egy érvényes JSON objektumot adj vissza, minden más szöveg nélk
 ```json
 {
   "cim": "A mese címe",
-  "mese": "A mese teljes szövege. A bekezdéseket \\n\\n választja el.",
+  "mese": "A mese teljes szövege. A bekezdéseket EGYETLEN \\n választja el, üres sor nélkül.",
   "tanulsag_szuloknek": "1–2 mondat a szülőnek arról, mit erősít a mese.",
   "kerdesek": [
     { "kerdes": "Kérdés a gyermeknek", "mire_figyelj": "Útmutató a szülőnek" }
@@ -110,5 +110,7 @@ Kizárólag egy érvényes JSON objektumot adj vissza, minden más szöveg nélk
   "biztonsagi_megjegyzes": ""
 }
 ```
+
+**Bekezdések:** a `mese` mezőben a bekezdéseket pontosan **egy** sortörés (`\n`) válassza el, soha ne legyen üres sor (`\n\n`) a bekezdések között. A párbeszéd minden megszólalása külön bekezdés.
 
 A `biztonsagi_megjegyzes` értéke **pontosan üres szöveg (`""`)**, ha semmit nem kellett cserélni vagy elhagyni. Ilyenkor ne magyarázd a döntéseidet, ne sorold fel, mi volt rendben, és ne említsd az üres mezőket. Csak akkor írj ide (egy-két rövid magyar mondatot), ha a szülő által megadott valamit kicseréltél, elhagytál vagy általánosítottál: mit kért, és mit választottál helyette.
