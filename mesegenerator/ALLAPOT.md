@@ -14,10 +14,10 @@ _Utolsó frissítés: 2026-10-24 (este)_
 | Google Drive feltöltés + megosztás | `mesegenerator_tmp` mappa |
 | PDF Google Docs sablonból | A4, Varázskönyv vízjel-keret, logó csak az 1. oldal fejlécében, 2:3-as színezőkép, „Oldaltörés előtte” a címeknél |
 | Email a szülőnek | Gmail modul a meglévő Google Restricted kapcsolattal; csatolmány: PDF + szinezo.png |
+| Takarítás | 2 × Google Drive Delete (Document ID, Upload File ID) az email után; a Make véglegesen töröl (nem a Kukába) |
 
 ## Hátravan ⬜
 
-2. **Takarítás:** Google Drive → Delete a File/Folder × 2 (a kitöltött Doc és a kép), az email UTÁN
 3. **Bemenet moderálása:** OpenAI → Create a Moderation + Router (a Tally után)
 4. **Hibakezelés:** Break hibakezelő + értesítő email Ritának; a `biztonsagi_megjegyzes` nem üres → értesítés
 5. **Heti takarító scenario** a `mesegenerator_tmp` mappára
