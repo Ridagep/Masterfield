@@ -15,11 +15,11 @@ _Utolsó frissítés: 2026-10-25_
 | PDF Google Docs sablonból | A4, Varázskönyv vízjel-keret, logó csak az 1. oldal fejlécében, 2:3-as színezőkép, „Oldaltörés előtte” a címeknél |
 | Email a szülőnek | Gmail modul a meglévő Google Restricted kapcsolattal; csatolmány: PDF + szinezo.png |
 | Bemenet moderálása | OpenAI Moderation a szabad szöveges mezőkre + Router: kiszűrt → elutasító email a szülőnek + értesítés Ritának (tesztelve) |
+| Hibakezelés | Retry (3×, 5 perc) a Claude, OpenAI kép, Create Document és Gmail modulon; incomplete executions BE; 3 egymás utáni hiba után leáll; Make hibaértesítés emailben; értesítés, ha a `biztonsagi_megjegyzes` nem üres |
 | Takarítás | 2 × Google Drive Delete (Document ID, Upload File ID) az email után; a Make véglegesen töröl (nem a Kukába) |
 
 ## Hátravan ⬜
 
-4. **Hibakezelés:** Break hibakezelő + értesítő email Ritának; a `biztonsagi_megjegyzes` nem üres → értesítés
 5. **Heti takarító scenario** a `mesegenerator_tmp` mappára
 6. **Scenario beállítások élesítéskor:** Data is confidential: BE
 7. **Tesztterv** (`make/epitesi_utmutato.md` 12. pont), köztük a gyermekvédelmi esetek
