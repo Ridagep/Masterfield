@@ -1,6 +1,6 @@
 # Varázskönyv – hol tartunk
 
-_Utolsó frissítés: 2026-10-24 (este)_
+_Utolsó frissítés: 2026-10-25_
 
 ## Kész ✅
 
@@ -14,11 +14,11 @@ _Utolsó frissítés: 2026-10-24 (este)_
 | Google Drive feltöltés + megosztás | `mesegenerator_tmp` mappa |
 | PDF Google Docs sablonból | A4, Varázskönyv vízjel-keret, logó csak az 1. oldal fejlécében, 2:3-as színezőkép, „Oldaltörés előtte” a címeknél |
 | Email a szülőnek | Gmail modul a meglévő Google Restricted kapcsolattal; csatolmány: PDF + szinezo.png |
+| Bemenet moderálása | OpenAI Moderation a szabad szöveges mezőkre + Router: kiszűrt → elutasító email a szülőnek + értesítés Ritának (tesztelve) |
 | Takarítás | 2 × Google Drive Delete (Document ID, Upload File ID) az email után; a Make véglegesen töröl (nem a Kukába) |
 
 ## Hátravan ⬜
 
-3. **Bemenet moderálása:** OpenAI → Create a Moderation + Router (a Tally után)
 4. **Hibakezelés:** Break hibakezelő + értesítő email Ritának; a `biztonsagi_megjegyzes` nem üres → értesítés
 5. **Heti takarító scenario** a `mesegenerator_tmp` mappára
 6. **Scenario beállítások élesítéskor:** Data is confidential: BE
