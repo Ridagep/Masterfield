@@ -22,7 +22,7 @@ _Utolsó frissítés: 2026-10-25_
 
 5. **Heti takarító scenario** a `mesegenerator_tmp` mappára
 6. **Scenario beállítások élesítéskor:** Data is confidential: BE
-7. **Tesztterv** (`make/epitesi_utmutato.md` 12. pont), köztük a gyermekvédelmi esetek
+7. **Tesztsorozat:** `make/tesztsorozat.md` (13 teszt, az A) gyermekvédelmi résszel kezdve) ← **holnap ezzel folytatjuk**
 8. **Adatkezelési tájékoztató:** kitöltés, ellenőrzés, nyilvános link a Tally hozzájárulás mezőjébe
 9. **Emlékeztető:** Google-kapcsolat újraengedélyezése 2027. április 23. előtt
 
