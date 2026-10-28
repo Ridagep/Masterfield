@@ -203,7 +203,7 @@ A mellékelt PDF-ben megtalálod:
 
 Jó mesélést kívánunk!
 
-Varázskönyv
+Lélekfonál
 
 A mese és az illusztráció mesterséges intelligencia segítségével készült.
 ```

@@ -1,6 +1,6 @@
 # PDF Google Docs sablonból (a CraftMyPDF helyett)
 
-Sablon: **Varázskönyv – mese sablon (Make)** a Google Drive-ban
+Sablon: **Lélekfonál – mese sablon (Make)** a Google Drive-ban
 (https://docs.google.com/document/d/1qcWBheYhwjO3zZBn0lImb5WGayushf7Tu4nYmERnhRw/edit)
 
 Benne vannak a helyőrzők: `{{cim}}`, `{{mese}}`, `{{tanulsag_szuloknek}}`, `{{kerdesek_szoveg}}`, és egy szürke
@@ -22,7 +22,7 @@ A Google a feltöltéskor néhány beállítást nem vett át, ezeket kézzel ke
    a **Halványítás (Fade)** pipát **vedd ki**, és a méretezést állítsd úgy, hogy a díszítés a lap széléig érjen.
    ⚠️ Ha a vízjel nem tölti ki a teljes lapot, az sem baj: a díszítés kisebb lesz, de a szöveg nem csúszik rá.
 5. **Lábléc:** kattints duplán a lap aljára (vagy Beszúrás → Fejlécek és láblécek → Lábléc) → írd be:
-   `Varázskönyv · Ez a mese mesterséges intelligencia segítségével készült.` → 8 pt, szürke, középre.
+   `Lélekfonál · Ez a mese mesterséges intelligencia segítségével készült.` → 8 pt, szürke, középre.
 6. **A helyőrző kép mérete:** kattints a szürke képre, és húzd akkorára, amekkorának a színezőt szeretnéd
    (kb. az oldal szélessége, a lábléc fölött). A Make az új képet ugyanebbe a méretbe teszi.
 
@@ -36,7 +36,7 @@ találja meg őket.
 A Make a képet az azonosítója alapján cseréli. Ezt egyszer kell kiolvasni:
 
 1. A scenarióban, külön (nem bekötve), adj hozzá egy **Google Docs → Get Content of a Document** modult.
-2. **Document:** a `Varázskönyv – mese sablon (Make)`.
+2. **Document:** a `Lélekfonál – mese sablon (Make)`.
 3. Jobb klikk → **Run this module only**.
 4. A kimenetben: **Inline Objects** (vagy *Inline Object Array*) → az első elem **Object ID**-ja, valami ilyesmi:
    `kix.abc123xyz`. **Másold ki és jegyezd fel.**
@@ -61,7 +61,7 @@ A Make a képet az azonosítója alapján cseréli. Ezt egyszer kell kiolvasni:
 - Képlink: `https://drive.google.com/uc?export=download&id=` + az Upload modul **ID**-ja
 
 ### 3. Google Docs → Create a Document from a Template
-- **Choose a Drive:** My Drive · **Document ID:** `Varázskönyv – mese sablon (Make)`
+- **Choose a Drive:** My Drive · **Document ID:** `Lélekfonál – mese sablon (Make)`
 - **Values** (a mezőnevek `{{}}` nélkül; ha a modul nem ismeri fel őket, próbáld kapcsos zárójellel):
   | Tag | Érték |
   |---|---|
