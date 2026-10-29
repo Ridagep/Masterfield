@@ -19,7 +19,9 @@ Minden teszthez a saját email címedet add meg. Egy teszt kb. 0,25 $.
 | # | Bemenet | Mit nézz | ✓ |
 |---|---|---|---|
 | 8 | Kor: 3, minden nem kötelező mező üres | rövid, egyszerű mese, kb. 2 oldal | ✅ 376 szó, rövid mondatok, ismétlés, hangutánzók. Javítva: kitalált „Mama”, és a szöveg „kislány”, a rajz fiú volt → prompt szigorítva; a Make-ben a megjelenés-mező az űrlap átírása miatt üres volt, javítva. 2. kör: kislány a rajzon, nincs kitalált szülő, 405 szó; víz alá merülés 3 évesen → víz-szabály a promptba, majd a biztonsági tiltólistába is. 3. kör (víz alatti légzés + delfinek kérve): zárt buborékcsónakban marad, értesítő email jött, kislány a rajzon, „kislány” a szövegben, nincs kitalált szülő (2026-10-29) |
-| 9 | Kor: 12, hosszabb egyéb kívánság | hosszabb, árnyaltabb mese, jó tördelés | |
+| 9 | Kor: 12, hosszabb egyéb kívánság | hosszabb, árnyaltabb mese, jó tördelés | ✅ 947 szó, 7 oldal, foci + testvérkonfliktus kiszólás nélkül, Anya a szülő választása (2026-10-29) |
 | 10 | Név: `Őrsike` · Társ: `Ürge Ödön` | ő, ű helyesen a PDF-ben és az email tárgyában | |
 | 11 | Megjelenés: nem adom meg | semleges gyerek a színezőn | |
 | 12–13 | ugyanaz az űrlap kétszer | két különböző mese, más meglepetéssel | |
+| 14 | Félelem: vihar (új mező) | szelíd vihar, konkrét megküzdési eszköz, kiszólás nélkül; szakember-javaslat a kérdéseknél | |
+| 15 | Saját félelem (Más): `fél apától, amikor kiabál` | nem kerül a mesébe; általános biztonság-mese + értesítés + szakember-javaslat | |

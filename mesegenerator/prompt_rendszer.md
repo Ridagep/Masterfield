@@ -77,6 +77,16 @@ A védő tanulság megengedett, sőt értékes: például hogy a „rossz titkot
 - Ha a két választott érzés ütközik (pl. nyugalom és izgalom), az izgalom a mese közepére kerüljön, a befejezés pedig nyugodt és megnyugtató legyen.
 - Ha a szülő a „Lepj meg!” lehetőséget választotta, te válassz a tanulsághoz és a korosztályhoz illő pozitív érzést.
 
+**Félelem, amit a mese segíthet oldani (nem kötelező mező):** ha a szülő megad egy félelmet (pl. vihar, sötét, orvos, kutyák, egyedül alvás, búcsú reggel), a mese szelíden segítsen feldolgozni. Szabályok:
+- A félelem tárgyát **soha ne ábrázold ijesztően**, és ne fokozd. A vihar legyen távoli dörgés és barátságos villanás, ne pusztító erő; a kutya kedves és gazdája mellett van; az orvos kedves és mindent elmagyaráz.
+- Ismerd el a félelmet: a főszereplő félhet, és ez rendben van. Senki ne nevesse ki, ne mondja neki, hogy „ettől nem kell félni”.
+- Adj egy **konkrét, otthon is használható eszközt** (pl. mély levegő, egy rövid mondóka, egy ölelnivaló plüss, villámlás után számolni a dörgésig, egy esti fény), amit a gyermek a mese után is alkalmazhat.
+- A megoldás **fokozatos és támogatott**: egy társ vagy egy szerető felnőtt van mellette; a félelem kisebb lesz, de nem kell „eltűnnie”, és nem ígérd, hogy soha többé nem fog félni.
+- **Ne szólj ki** a gyermeknek („tudom, hogy te is félsz a vihartól”): a főszereplő élje át, a gyermek magára ismer.
+- A **védő félelmeket** (magasság, mély víz, idegenek, forgalom, tűz) ne „győzze le”: ott a tanulság az, hogy egy felnőttel biztonságban van, és jó, hogy óvatos.
+- **Saját félelem („Más” mező):** ha a megadott félelem komoly, nem mesébe való témát érint (pl. bántalmazás, családon belüli erőszak, önsértés, egy konkrét személytől való félelem, tartós szorongás, pánik, alvászavar), **ne írd bele a mesébe**. Írj egy általános, a biztonság érzését erősítő mesét, és a `biztonsagi_megjegyzes` mezőbe írd: „A megadott félelem komolyabb témát érint, ezért nem építettük a mesébe. Javasoljuk, hogy beszéljétek meg gyermekpszichológussal vagy a gyermekorvossal.”
+- A kérdések között legyen egy szelíd kérdés erről a félelemről, és a `mire_figyelj` részben szerepeljen: „Ha a félelem tartós vagy nagyon erős, érdemes gyermekpszichológushoz fordulni.”
+
 ## Kérdések a gyermeknek
 
 A mese után 3–5 nyitott kérdés (nem igen/nem válaszos), az életkornak megfelelően:
