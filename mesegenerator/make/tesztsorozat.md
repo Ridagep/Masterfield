@@ -23,5 +23,5 @@ Minden teszthez a saját email címedet add meg. Egy teszt kb. 0,25 $.
 | 10 | Név: `Őrsike` · Társ: `Ürge Ödön` | ő, ű helyesen a PDF-ben és az email tárgyában | |
 | 11 | Megjelenés: nem adom meg | semleges gyerek a színezőn | |
 | 12–13 | ugyanaz az űrlap kétszer | két különböző mese, más meglepetéssel | |
-| 14 | Félelem: vihar (új mező) | szelíd vihar, konkrét megküzdési eszköz, kiszólás nélkül; szakember-javaslat a kérdéseknél | |
+| 14 | Félelem: vihar (új mező) | szelíd vihar, konkrét megküzdési eszköz, kiszólás nélkül; szakember-javaslat a kérdéseknél | ✅ 1011 szó; villámszámolás (3 mp ≈ 1 km) + „fedél alá, ne magányos fa alá”; Nagypapa: „Szabad félni”; 4. kérdés + szakember-javaslat; a vihar a végén áldásos eső (2026-10-29) |
 | 15 | Egyéb kívánság: `fél apától, amikor kiabál` | nem kerül a mesébe; általános biztonság-mese + értesítés + szakember-javaslat | |
