@@ -23,8 +23,8 @@ _Utolsó frissítés: 2026-10-29_
 
 5. **Heti takarító scenario** a `mesegenerator_tmp` mappára
 6. **Scenario beállítások élesítéskor:** Data is confidential: BE
-7. **Tesztsorozat:** `make/tesztsorozat.md`: 1–7. (gyermekvédelem) kész ✅, következik a 8. (3 éves, üres mezők) ← **innen folytatjuk**
-7a. **„Félelem” mező** (terv: zárt lista + szakember-figyelmeztetés + promptszabályok + tájékoztató; GDPR 9. cikk miatt jogászi átnézés)
+7. **Tesztsorozat:** `make/tesztsorozat.md`: mind a 15 teszt kész ✅ (2026-10-29); nyitott: semleges gyerekrajz („nem adom meg”) átváltozás nélküli képességgel
+7a. **„Félelem” mező:** élesítve ✅ (legördülő zárt lista, nem kötelező, „Más” nélkül); GDPR 9. cikk miatt jogászi átnézés javasolt
 8. **Adatkezelési tájékoztató:** kitöltés, ellenőrzés, nyilvános link a Tally hozzájárulás mezőjébe
 9. **Emlékeztető:** Google-kapcsolat újraengedélyezése 2027. április 23. előtt
 
