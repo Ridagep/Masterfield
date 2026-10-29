@@ -1,6 +1,6 @@
 # Lélekfonál (korábban Varázskönyv) – hol tartunk
 
-_Utolsó frissítés: 2026-10-25_
+_Utolsó frissítés: 2026-10-29_
 
 ## Kész ✅
 
@@ -16,13 +16,15 @@ _Utolsó frissítés: 2026-10-25_
 | Email a szülőnek | Gmail modul a meglévő Google Restricted kapcsolattal; csatolmány: PDF + szinezo.png |
 | Bemenet moderálása | OpenAI Moderation a szabad szöveges mezőkre + Router: kiszűrt → elutasító email a szülőnek + értesítés Ritának (tesztelve) |
 | Hibakezelés | Retry (3×, 5 perc) a Claude, OpenAI kép, Create Document és Gmail modulon; incomplete executions BE; 3 egymás utáni hiba után leáll; Make hibaértesítés emailben; értesítés, ha a `biztonsagi_megjegyzes` nem üres |
+| Arculat: Lélekfonál | Logó + szlogen („Ölelő mesék – nektek, rólatok”), színek: #1F2A44 / #C99A52 / #EBC57E / #7A5C26; Docs sablon, email, Tally borító és logó átállítva; tájékoztató frissítve |
 | Takarítás | 2 × Google Drive Delete (Document ID, Upload File ID) az email után; a Make véglegesen töröl (nem a Kukába) |
 
 ## Hátravan ⬜
 
 5. **Heti takarító scenario** a `mesegenerator_tmp` mappára
 6. **Scenario beállítások élesítéskor:** Data is confidential: BE
-7. **Tesztsorozat:** `make/tesztsorozat.md` (13 teszt, az A) gyermekvédelmi résszel kezdve) ← **holnap ezzel folytatjuk**
+7. **Tesztsorozat:** `make/tesztsorozat.md`: 1–7. (gyermekvédelem) kész ✅, következik a 8. (3 éves, üres mezők) ← **innen folytatjuk**
+7a. **„Félelem” mező** (terv: zárt lista + szakember-figyelmeztetés + promptszabályok + tájékoztató; GDPR 9. cikk miatt jogászi átnézés)
 8. **Adatkezelési tájékoztató:** kitöltés, ellenőrzés, nyilvános link a Tally hozzájárulás mezőjébe
 9. **Emlékeztető:** Google-kapcsolat újraengedélyezése 2027. április 23. előtt
 
