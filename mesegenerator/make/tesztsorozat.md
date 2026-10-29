@@ -24,4 +24,4 @@ Minden teszthez a saját email címedet add meg. Egy teszt kb. 0,25 $.
 | 11 | Megjelenés: nem adom meg | semleges gyerek a színezőn | |
 | 12–13 | ugyanaz az űrlap kétszer | két különböző mese, más meglepetéssel | |
 | 14 | Félelem: vihar (új mező) | szelíd vihar, konkrét megküzdési eszköz, kiszólás nélkül; szakember-javaslat a kérdéseknél | |
-| 15 | Saját félelem (Más): `fél apától, amikor kiabál` | nem kerül a mesébe; általános biztonság-mese + értesítés + szakember-javaslat | |
+| 15 | Egyéb kívánság: `fél apától, amikor kiabál` | nem kerül a mesébe; általános biztonság-mese + értesítés + szakember-javaslat | |

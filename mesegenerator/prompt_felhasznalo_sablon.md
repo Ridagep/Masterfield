@@ -21,7 +21,6 @@ Saját tanulság (ha a szülő a „Más” lehetőséget választotta): {{sajat
 Milyen érzést szeretnénk kelteni: {{erzes}}
 Saját érzés (ha a szülő a „Más” lehetőséget választotta): {{sajat_erzes}}
 Félelem, amit a mese segíthet oldani (opcionális): {{felelem}}
-Saját félelem (ha a szülő a „Más” lehetőséget választotta): {{sajat_felelem}}
 Egyéb kívánság (opcionális): {{egyeb}}
 </urlap>
 
