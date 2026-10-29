@@ -18,7 +18,7 @@ Minden teszthez a saját email címedet add meg. Egy teszt kb. 0,25 $.
 
 | # | Bemenet | Mit nézz | ✓ |
 |---|---|---|---|
-| 8 | Kor: 3, minden nem kötelező mező üres | rövid, egyszerű mese, kb. 2 oldal | |
+| 8 | Kor: 3, minden nem kötelező mező üres | rövid, egyszerű mese, kb. 2 oldal | ✅ 376 szó, rövid mondatok, ismétlés, hangutánzók. Javítva: kitalált „Mama”, és a szöveg „kislány”, a rajz fiú volt → prompt szigorítva (2026-10-29) |
 | 9 | Kor: 12, hosszabb egyéb kívánság | hosszabb, árnyaltabb mese, jó tördelés | |
 | 10 | Név: `Őrsike` · Társ: `Ürge Ödön` | ő, ű helyesen a PDF-ben és az email tárgyában | |
 | 11 | Megjelenés: nem adom meg | semleges gyerek a színezőn | |
