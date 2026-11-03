@@ -17,6 +17,7 @@ _Utolsó frissítés: 2026-10-29_
 | Bemenet moderálása | OpenAI Moderation a szabad szöveges mezőkre + Router: kiszűrt → elutasító email a szülőnek + értesítés Ritának (tesztelve) |
 | Hibakezelés | Retry (3×, 5 perc) a Claude, OpenAI kép, Create Document és Gmail modulon; incomplete executions BE; 3 egymás utáni hiba után leáll; Make hibaértesítés emailben; értesítés, ha a `biztonsagi_megjegyzes` nem üres |
 | Arculat: Lélekfonál | Logó + szlogen („Ölelő mesék – nektek, rólatok”), színek: #1F2A44 / #C99A52 / #EBC57E / #7A5C26; Docs sablon, email, Tally borító és logó átállítva; tájékoztató frissítve |
+| Tally űrlap finomítás (2026-11-03) | valódi karakterkorlát a „Más” mezőkön (helyszín 50, képesség 50, tanulság 80, érzés 50), egyéb kívánság 500; érzésnél a kettős „Más” megszüntetve; Lélekfonál színek; köszönőoldal szövege lágyítva |
 | Takarítás | 2 × Google Drive Delete (Document ID, Upload File ID) az email után; a Make véglegesen töröl (nem a Kukába) |
 
 ## Hátravan ⬜
