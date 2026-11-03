@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "cim": { "type": "string" },
+    "mese": { "type": "string" },
+    "tanulsag_szuloknek": { "type": "string" },
+    "kerdesek": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kerdes": { "type": "string" },
+          "mire_figyelj": { "type": "string" }
+        },
+        "required": ["kerdes", "mire_figyelj"],
+        "additionalProperties": false
+      }
+    },
+    "szinezo": {
+      "type": "object",
+      "properties": {
+        "jelenet_leiras_hu": { "type": "string" },
+        "kep_prompt_en": { "type": "string" }
+      },
+      "required": ["jelenet_leiras_hu", "kep_prompt_en"],
+      "additionalProperties": false
+    },
+    "biztonsagi_megjegyzes": { "type": "string" }
+  },
+  "required": ["cim", "mese", "tanulsag_szuloknek", "kerdesek", "szinezo", "biztonsagi_megjegyzes"],
+  "additionalProperties": false
+}
