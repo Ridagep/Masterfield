@@ -199,7 +199,7 @@ Más
 - **9b. Milyen érzés?** · Short answer · Max. 50 karakter · *csak ha a 9. tartalmazza a „Más”-t*
 
 ### 10. Van még valami kívánságod?
-- Típus: **Long answer** · Nem kötelező · Max. 200 karakter
+- Típus: **Long answer** · Nem kötelező · Max. 500 karakter
 - Súgó szöveg: `Például: szerepeljen benne egy piros sárkány. Kérjük, ne írj címet, iskolanevet vagy más azonosító adatot.`
 
 ---
